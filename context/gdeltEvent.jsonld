@@ -22,7 +22,7 @@
 
             "actors" : { "@id" : "gdelt:actors" , "@type" : "@id" },
             "actor1" : { "@id" : "gdelt:actors" , "@type" : "@vocab" },
-            "actor2" : { "@id" : "gdelt:actors" , "@type" : "@vocab" },
+            "actor2" : { "@id" : "gdelt:actors" , "@type" : "@vocab" }
 
           }
 
