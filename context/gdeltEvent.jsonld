@@ -18,7 +18,7 @@
            "nummentions" : { "@id" : "gdelt:monthyear", "@type" : "sch:Integer" },
            "numsources" : { "@id" : "gdelt:monthyear", "@type" : "sch:Integer" },
            "numarticles" : { "@id" : "gdelt:monthyear" ,"@type" : "sch:Integer" },
-           "avgtone"   : { "@id" : "gdelt:year", "@type" : "sch:Float" }
+           "avgtone"   : { "@id" : "gdelt:year", "@type" : "sch:Float" },
 
             "actors" : { "@id" : "gdelt:actors" , "@type" : "@id" },
             "actor1" : { "@id" : "gdelt:actors" , "@type" : "@vocab" },
