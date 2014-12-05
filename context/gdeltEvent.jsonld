@@ -1,0 +1,31 @@
+{
+  "@context" : {
+          "@base"  : "http://resovler.lmco.com/es/gdelt/event/",
+          "gdelt" : "http://example.com/gdelt/ged/" ,
+          "elvs" : "http://example.com/elvs/" ,
+          "sch" : "http://schema.org/",
+           "globaleventid" : "@id",
+           "sqldate" : { "@id" : "gdelt:sqldate" ,"@type" : "sch:Date" },
+           "monthyear" : { "@id" : "gdelt:monthyear", "@type" : "sch:Integer" },
+           "year" : { "@id" : "gdelt:year" ,"@type" : "sch:Date" },
+           "fractiondate" : { "@id" : "gdelt:year", "@type" : "sch:Float" },
+           "isrootevent" : { "@id" : "gdelt:cameoTypeCodes" ,"@type" : "sch:Boolean" },
+           "eventcode" : { "@id" : "gdelt:year" ,"@type" : "sch:Text" },
+           "eventbasecode" : { "@id" : "gdelt:year" ,"@type" : "sch:Text" },
+           "eventrootcode" : { "@id" : "gdelt:year" ,"@type" : "sch:Text" },
+           "quadclass" : { "@id" : "gdelt:monthyear" ,"@type" : "sch:Integer" },
+           "goldsteinscale" : { "@id" : "gdelt:year" ,"@type" : "sch:Float" },
+           "nummentions" : { "@id" : "gdelt:monthyear", "@type" : "sch:Integer" },
+           "numsources" : { "@id" : "gdelt:monthyear", "@type" : "sch:Integer" },
+           "numarticles" : { "@id" : "gdelt:monthyear" ,"@type" : "sch:Integer" },
+           "avgtone"   : { "@id" : "gdelt:year", "@type" : "sch:Float" }
+
+            "actors" : { "@id" : "gdelt:actors" , "@type" : "@id" },
+            "actor1" : { "@id" : "gdelt:actors" , "@type" : "@vocab" },
+            "actor2" : { "@id" : "gdelt:actors" , "@type" : "@vocab" },
+
+          }
+
+
+
+ }
